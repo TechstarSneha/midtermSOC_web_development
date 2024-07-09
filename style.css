@@ -1,153 +1,18 @@
-#intro {
-    text-align: left;
-    letter-spacing: 0cap;
-}
-.box {
-    border: 2px solid black;
-    width: 300px;
-    padding: 20px;
-    margin-bottom: 0cm;
-}
-.box2 {
-    border: 3px solid blue;
-    width: 232px;
-    margin: 15px;
-    padding: 10px; 
-}
-.box3 {
-    border: 2px solid green;
-    margin: 1px;
-    padding: 5px;
-    line-height: 1cm;
-}
-.box4 {
-    border: 3px solid blue;
-    width: 200px;
-    padding: 10px;
-    margin: 0px;
-    margin-top: 0px;
-}
-.insta {
-    border: 1px solid green;
-    margin: 10px;
-    padding: 5px;
-    line-height: 1cm;
-}
-.link {
-    border: 1px solid green;
-    margin: 10px;
-    padding: 5px;
-    line-height: 1cm;
-}
-.fb {
-    border: 1px solid green;
-    margin: 10px;
-    padding: 5px;
-    line-height: 1cm;
-}
+h1 { 
+    color:black;
+    font-size: 68px;
+    font-style:italic;
+    }
 
-.container1 {
-    display: flex;
-    column-gap: 75px;    
-}
-h1 {
-    margin-bottom: 0cm;
-}
 
-.red {
-    width: 500px;
-    height: 75px;
-    background-color: red;
-    color: white;
-    font-size: 39px;
-    text-align: center;
-}
-.blue{
-    width: 500px;
-    height: 150px;
-    background-color: rgba(3, 3, 76, 0.86);
-    vertical-align: middle;
-    display: table-cell;
-}
-.circle {
-    width: 100px;
-    height: 100px;
-    background-color:white;
-    border-radius: 50px;
-    text-align: center;
-    font-size: 39px;
-    margin-top: 25px;
-           
-}
-
-.red2 {
-    width: 500px;
-    height: 75px;
-    background-color: red;
-}
-
-.contain {
-display:flex;
-align-items: center;
-justify-content: center;
-margin-top: 25px;
-
-}
-
-.item {
-    background-color: lightgrey;
-    width: 300px;
-    height: 400px;
-    text-align: center;   
-    border-radius: 15px;
-    text-wrap: wrap;
-    margin: 10px;
-}
-
-.image {
-   background-color: bisque;
-    height: 200px;
-    width: 300px; 
-   background-size: cover;
-   border-radius: 15px 15px 0px 0px;
+body{
+    font-size: 25px;
+    border: 3px solid black;
+    BACKGROUND-color: #FFF1D0;
     
+    
+
+    
+
 }
 
-.img-1 {
-    background-image: url('../naruto.webp');
-}
-.img-2 {
-    background-image: url('tanjiro.png');
-}
-.img-3 {
-    background-image: url('mikasa.avif');
-}
-
-h2 {
-    text-align: center;
-    letter-spacing: 0.1cm;
-    font-weight:bolder ;
-   
-}
-
-p {
-    text-align: center;
-    letter-spacing: 0.03cm;
-    line-height: 0.7cm;
-}
-
-.item a {
-text-align:center;
-background-color: rgb(239, 126, 12);
-border-radius: 5px;
-padding: 5px;
-text-decoration: none;
-color: white;
-}
-
-.item:hover {
-    background-color: grey;
-    cursor: pointer;
-    transform: scale(1.05);
-    transition: all 1s ease;
-}
