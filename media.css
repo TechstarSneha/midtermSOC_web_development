@@ -1,0 +1,71 @@
+h1 {
+    color:rgb(245, 171, 81);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    margin:20px;
+}
+header {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+    font-weight: 800;
+    margin: 20px;
+    line-height: 2cm;
+}
+span {
+    color: rgb(8, 8, 122);
+}
+.image {
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+}
+.box {
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+}
+H4 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+
+p {
+    font-family:sans-serif;
+    line-height: 0.6cm;
+    margin: 20px;
+    text-align: justify;
+    word-wrap: break-word;
+    float: left;
+    
+}
+
+
+.full {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(342.8px, 1fr));
+}
+
+.container-one {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(306px, 1fr));   
+}
+.container-two {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(306px, 1fr));
+}
+
+footer {
+    text-align: right;
+}
+
+.box:nth-child(2) {
+    margin-top: 20px;
+}
+
+@media(max-width: 680px)
+{
+  header {
+    text-align: center;
+  }
+  
+}
